@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://i.imgur.com/tU26cZL.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text, .whatsapp-number {
+    font-family: Arial, sans-serif;
+    text-shadow: 1px 1px 2px #ffffff, -1px -1px 2px #ffffff, 1px -1px 2px #ffffff, -1px 1px 2px #ffffff;
+}
+
+.text {
+    font-size: 18px;
+    color: #000000; /* Texto negro */
+}
+
+.whatsapp-number {
+    font-size: 18px; /* Tamaño de fuente */
+    color: #25d366; /* Verde de WhatsApp */
+    text-shadow: 1px 1px 2px #ffffff, -1px -1px 2px #ffffff, 1px -1px 2px #ffffff, -1px 1px 2px #ffffff; /* Contorno blanco */
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bottom-right img {
+    width: 40px;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-right {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.left {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.below-left {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
